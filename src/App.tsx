@@ -5,7 +5,7 @@ import { persistor, store } from "./redux/store";
 import { PersistGate } from "redux-persist/integration/react";
 import "aos/dist/aos.css";
 import { StateProvider } from "./context/stateProvider";
-
+import "./index.scss";
 // AOS.init({
 //   // initialise with other settings
 //   duration: 1000,
